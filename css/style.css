@@ -1,0 +1,654 @@
+/* Подключение шрифтов */
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway Regular'), local('Raleway-Regular'), url('../fonts/Raleway-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-display: swap;
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('../fonts/Raleway-ExtraBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url('../fonts/Raleway-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Italic';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Raleway Italic'), local('Raleway-Italic'), url('../fonts/Raleway-Italic.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Black';
+  font-weight: 900;
+  font-display: swap;
+  src: local('Raleway Black'), local('Raleway-Black'), url('../fonts/Raleway-Black.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/Roboto-Light.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/Roboto-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('../fonts/Roboto-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  font-weight: 800;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/Roboto-Black.ttf') format('ttf');
+}
+----------------------------------------------------------------
+
+/* Часть 1 - Intro #intro*/
+
+.myintrorow {
+  max-width: 1250px;
+}
+
+.title {
+  justify-content: center;
+}
+
+.title__main {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 30px;
+  max-width: 1200px;
+  margin-top: 79px;
+  text-align: left;
+}
+
+
+.title__text, .title__text2 {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 14px;
+  max-width: 1100px;
+  text-align: left;
+  margin-top: 27px;
+}
+
+.title__text2 {
+  margin-top: 42px;
+  max-width: 1070px;
+}
+
+/* Часть 2 - Контактная форма #contact-form */
+
+.title3__main, .title__main4, .title__main5 {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-row {
+  margin-top: 25px;
+  width: 785px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  -webkit-box-shadow: 10px 10px 5px 10px rgba(173,170,170,0.77);
+  -moz-box-shadow: 10px 10px 5px 10px rgba(173,170,170,0.77);
+  box-shadow: 10px 10px 5px 10px rgba(173,170,170,0.77);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+
+.form-control1, .form-control2 {
+  margin-right: 20px;
+  width: 320px;
+  height: 48px;
+  -webkit-box-shadow: 5px 4px 2.5px 0px rgba(173,170,170,0.77);
+  -moz-box-shadow: 5px 4px 2.5px 0px rgba(173,170,170,0.77);
+  box-shadow: 5px 5px 2.1px 0px rgba(173,170,170,0.77);
+}
+
+
+.button-holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.mybtnstyle {
+  width: 675px;
+  height: 48px;
+}
+
+#emailHelp{
+  width: 540px;
+  margin-left: 5px;
+  color:rgba(173, 173, 173, 0.09);
+}
+
+.smallformtext {
+  font-size: 7px;
+  color:rgb(48, 153, 226);
+  margin-right:4px;
+}
+
+
+/* Часть 3 - Наша Команда #our-team*/
+
+.title__main4 {
+  margin-top: 118px;
+  margin-bottom: 15px;
+}
+
+.team__image {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.team__title {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.team__text2, .team__text3 {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+}
+
+.logostyle-margin{
+  margin-left: 15%;
+}
+
+.logostyle-mrright{
+  margin-right: 5px;
+}
+
+/*span class style start*/
+
+.team__select {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 12px;
+  color: rgb(87, 187, 245);
+}
+
+.link__select {
+  font-family: 'Roboto-Regular';
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(45, 154, 244);
+  border-bottom: 1px solid rgb(45, 154, 244);
+}
+
+/*span class style end*/
+
+.team__text2jana {
+  margin-top: 45px;
+}
+
+.margin-class {
+  margin-top: 20px;
+}
+
+
+
+/* Часть 4 - Как мы работает #how-we-work*/
+
+.work {
+  width: 610px;
+  -webkit-box-shadow: 5px 5px 2.5px 0px rgba(173,170,170,0.77);
+  -moz-box-shadow: 5px 5px 2.5px 0px rgba(173,170,170,0.77);
+  box-shadow: 5px 5px 2.5px 0px rgba(173,170,170,0.77);
+
+}
+
+.work-number {
+  font-family: "Roboto Black";
+  font-weight: 800;
+  font-size: 64px;
+  margin-top: 10px;
+  margin-right: 5px;
+  color: rgba(11, 224, 240);
+}
+
+.work-text-style5 {
+  width: 450px;
+}
+
+.work-row-width {
+  width: 115%;
+}
+
+.work-text-style4 {
+  width: 461px;
+}
+
+.work-text-style1, .work-text-style3 {
+  width: 465px;
+}
+
+.work-btn {
+  width: 610px;
+}
+.work__blockbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.workbtn-width {
+  width: 400px;
+  height: 75px;
+}
+
+.btntext {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 21px;
+  width: 200px;
+}
+
+/* Часть 5 - Наши результаты #our-results*/
+
+.card-img, .card-img-overlay {
+ width: 100%;
+}
+
+.card-title-1 {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 36px;
+  margin-left: 117px;
+  margin-top: 60px;
+}
+
+.card-text-1 {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 21px;
+  margin-top: 40px;
+  margin-left: 117px;
+}
+
+.results-number {
+  font-family: "Roboto Black";
+  font-weight: 800;
+  font-size: 64px;
+  margin-top: 14px;
+  margin-right: 16px;
+  margin-left: 117px;
+}
+
+.results-info {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  font-size: 18px;
+  width: 92px;
+  margin-top: 34px;
+}
+
+
+.results-info-1, .results-info-2 {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  font-size: 18px;
+  width: 350px;
+  margin-top: 34px;
+}
+
+.results-info-width {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  font-size: 18px;
+  width: 160px;
+  margin-top: 34px;
+}
+
+
+
+/* Часть 6 - Наши Офисы #offices*/
+
+.offices__cards {
+  display: flex;
+}
+
+.office-header {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.myoffice:hover{
+  background-color: lightblue;
+}
+
+.offices__holder {
+
+}
+
+/* Часть 7 - Отзывы #reviews*/
+
+.review__holder {
+  width: 1136px;
+  height: 222px;
+}
+
+.card-review-header {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 36px;
+  margin-top: 28px;
+}
+
+.review-text {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 16px;
+  width: 880px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.review-commas-1 {
+  top: 10px;
+}
+
+.review-commas-2 {
+  top: -70px;
+}
+
+.results-info-1-coma, .results-info-2-coma {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 72px;
+}
+
+/* Часть 8 - Подпись на рассылку #mail-list*/
+
+
+.mymail-list {
+  background-color: rgba(0, 172, 236);
+  width: 1395px;
+  height: 140px;
+  border: 1 solid rgba(0, 172, 236);
+}
+
+.myinputmail {
+  margin-right: 20px;
+  width: 130px;
+}
+
+.mybtnmail {
+  width: 330px;
+}
+
+.message-tel1 {
+  position: relative;
+  right: 20px;
+  top:10px;
+}
+
+.message-tel2 {
+  width: 135px;
+  height: 135px;
+  top: 50px;
+}
+
+.myLocationMess{
+  top: -45px;
+  right: -70px;
+  -webkit-transform:rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+/* Часть 9 - Отношения с клиентами #clients*/
+
+.clients__block{
+  margin-top: 42px;
+}
+.clients__title {
+  width: 850px;
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.client_text {
+  margin-top: 10px;
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  font-size: 14px;
+  width: 860px;
+  text-align: justify;
+}
+
+.client-button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.licence-box {
+  width: 477px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* Часть 10 - Лицензии #licence*/
+
+.offices__licence {
+  display: flex;
+}
+
+.licence-signature {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.mylicence1 {
+  background-repeat:
+}
+
+
+/* Часть 11 - Юридические данные #law-address*/
+
+.mylawcontainer{
+  margin-top: 80px;
+}
+
+.mylawrow, .mylawcontainer {
+  display: flex;
+}
+
+.mylowheader {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+}
+
+.mylowtext {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+}
+
+.mylowheader2{
+  font-family: 'Roboto-Bold';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.mylawtext {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 131, 202, 1);
+}
+
+
+/* Часть 12 - Наша История #history */
+
+.title2, .title3, .title4 {
+  display: flex;
+  justify-content: center;
+}
+
+.title__main2 {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 800;
+  font-size: 30px;
+
+}
+
+.bold {
+  font-family: 'Roboto-Light';
+  font-weight: bold;
+}
+
+.row-dates {
+  display: flex;
+}
+
+.imageholder {
+  margin-left: -2.7%;
+}
+
+.textholder {
+  margin-top: 15px;
+}
+
+.title__text-last {
+  margin-top: 40px;
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Часть 13 - section: #we-help */
+
+.wehelp__cirlcles{
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+  .circle {
+    width:15%;
+    height:0;
+    color:#fff;
+    text-align:
+    center;
+    line-height:0;
+    padding: 7% 0;
+    border-radius:50%;
+    border: 9px solid rgba(78, 146, 182, 1);
+    background: rgba(176, 183, 187, 1);
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    font-size:60px;
+  }
+
+.wehelp_text {
+  display: flex;
+  width: 1158px;
+  justify-content: space-between;
+}
+
+.help_text1, .help_text2, .help_text3 {
+  width: 300px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.help_text2 {
+  width: 220px;
+
+}
+
+.help_text3 {
+  width: 280px;
+  margin-left: 25px;
+}
+
+.helpheader {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+/* Часть 14 - section: #footer */
+
+.footer-header {
+  font-family: 'Roboto-Bold';
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+}
+
+.footer-text {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  line-height: normal;
+}
+
+.footer-small {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 10px;
+  color: rgba(179, 176, 176, 1);
+}
+
+.footer-small-margin {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  margin: 0 auto;
+}
